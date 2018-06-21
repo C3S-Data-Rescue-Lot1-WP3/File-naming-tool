@@ -1,0 +1,19 @@
+If you have a folder with images in the folder, the program will look for the folder name, listed on line 26, 
+and try to match dates to each image.  It produces several files and a new directory with the name of the 
+original folder to identify the item we’re looking at. The file we want to look at is the one with an 
+extension ‘.html’, which tries to match the expected date with a crop from the image file with the 
+actual date for the file.  When there’s a mismatch, I’ve been putting any ‘extra’ files in a separate folder 
+I create, called ‘item_XX_discards’.  If any files are actually missing, I’ve copied a blank sheet 
+(attached here as ‘missing.jpg’) and added in the item number before the missing page, with the 
+suffixes ‘a’ and ‘missing’.  If, for example, file ’003.jpg’ should be the second page of June 3-6 1880 
+but instead it’s June 7-9 1880, I made a copy of the ‘missing.jpg’ and renamed file ‘002a_2_missing.jpg’, 
+the ‘2’ to represent the second page.
+
+NOte: to get PIL/PILLOW workign with python3, need to type on command line: pip3 install pillow
+need:
+install xcode tools
+Install homebrew
+Install python3 
+
+
+
